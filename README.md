@@ -16,19 +16,19 @@
 
 | | 版本 | frontmatter | 行为 |
 |---|---|---|---|
-| `ruozhiba-auto` | 1.1.0 | 无特殊开关 | 出现在模型目录里，每条回复前自动过一遍，每5秒自动检查，适合日常聊天 |
-| `ruozhiba-manual` | 2.0.0 | `disable-model-invocation: true` | 模型看不见，需要在发起请求时附带，适合改稿 |
+| `ruozhiba-humanizer-auto` | 1.1.0 | 无特殊开关 | 出现在模型目录里，每条回复前自动过一遍，每5秒自动检查，适合日常聊天 |
+| `ruozhiba-humanizer-manual` | 2.0.0 | `disable-model-invocation: true` | 模型看不见，需要在发起请求时附带，适合改稿 |
 
 ## 目录
 
 ```
-ruozhiba-auto/
+ruozhiba-humanizer-auto/
   SKILL.md
   references/
-    intensity.md        定档细则、关系松紧、升降档判据
-    mechanisms.md       十机制带语料原例
-    failure-modes.md    演砸的十种死法
-    corpus-evidence.md  语料统计与样本分级
-ruozhiba-manual/        （同上，SKILL.md 不同）
+    intensity.md        #定档细则、关系松紧、升降档判据
+    mechanisms.md       #十机制带语料原例
+    failure-modes.md    #演砸的十种死法
+    corpus-evidence.md  #语料统计与样本分级
+ruozhiba-humanizer-manual/        #同上，SKILL.md 不同
 ```
 
